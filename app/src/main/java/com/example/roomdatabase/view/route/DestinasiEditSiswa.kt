@@ -1,7 +1,7 @@
 package com.example.roomdatabase.view.route
 
 import androidx.compose.foundation.layout.R
-import com.example.roomsiswa.R
+import com.example.roomdatabase.R
 
 object DestinasiEditSiswa : DestinasiNavigasi {
     override val route = "item_edit"
