@@ -1,4 +1,13 @@
 package com.example.roomdatabase.view.route
 
-object DestinasiDetailSiswa {
+import androidx.compose.foundation.layout.R
+import com.example.roomsiswa.R
+
+object DestinasiDetailSiswa : DestinasiNavigasi {
+    override val route = "detail_siswa"
+
+    override val titleRes = R.string.detail_siswa
+
+    const val itemIdArg = "idSiswa"
+    val routeWithArgs = "$route/{$itemIdArg}"
 }
